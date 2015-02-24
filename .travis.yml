@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+- "0.10.36"
+- "0.12"
+- "iojs"
+
+env:
+  - COVERAGE=true
+
+script: make test
+
+branches:
+  only:
+    - master
