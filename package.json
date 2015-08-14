@@ -4,11 +4,11 @@
   "description": "LDAP authentication for waterlock",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "grunt travis"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fladi/waterlock-ldap"
+    "url": "https://github.com/OpenServicesEU/waterlock-ldap-auth"
   },
   "keywords": [
     "waterlock",
@@ -17,35 +17,39 @@
     "sails"
   ],
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "proxyquire": "*",
     "coveralls": "*",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
     "istanbul": "*",
-    "jshint": "*"
+    "jshint": "*",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "*",
+    "proxyquire": "*",
+    "should": "*"
   },
   "dependencies": {
     "bcrypt": "~0.8.1",
-    "jade": "~1.3.1",
-    "jwt-simple": "~0.2.0",
+    "jade": "~1.11.0",
+    "jwt-simple": "~0.3.0",
     "ldapauth-fork": "^2.2.19",
-    "lodash": "~2.4.1",
-    "moment": "~2.9.0",
+    "lodash": "~3.10.1",
+    "moment": "~2.10.6",
     "node-uuid": "~1.4.2",
-    "nodemailer": "~1.3.0"
+    "nodemailer": "~1.4.0"
   },
-  "author": "Michael Fladischer <michael@fladi.at>",
+  "author": "Michael Fladischer <michael@openservices.at>",
   "contributors": [
     {
       "name": "Michael Fladischer",
-      "email": "michael@fladi.at"
+      "email": "michael@openservices.at"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fladi/waterlock-ldap/issues"
+    "url": "https://github.com/OpenServicesEU/waterlock-ldap-auth/issues"
   },
-  "homepage": "https://github.com/fladi/waterlock-ldap",
+  "homepage": "https://github.com/OpenServicesEU/waterlock-ldap-auth",
   "preferGlobal": false,
   "engines": {
     "node": ">=0.10"
