@@ -29,14 +29,8 @@
     "should": "*"
   },
   "dependencies": {
-    "bcrypt": "~0.8.1",
-    "jade": "~1.11.0",
-    "jwt-simple": "~0.3.0",
     "ldapauth-fork": "^2.2.19",
-    "lodash": "~3.10.1",
-    "moment": "~2.10.6",
-    "node-uuid": "~1.4.2",
-    "nodemailer": "~1.4.0"
+    "lodash": "~3.10.1"
   },
   "author": "Michael Fladischer <michael@openservices.at>",
   "contributors": [
