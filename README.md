@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/OpenServicesEU/waterlock-ldap-auth.svg)](https://travis-ci.org/OpenServicesEU/waterlock-ldap-auth)
 [![NPM version](http://img.shields.io/npm/v/waterlock-ldap-auth.svg?style=flat)](http://badge.fury.io/js/waterlock-ldap-auth)
-[![Dependency Status](http://img.shields.io/gemnasium/OpenServicesEU/waterlock-ldap-auth.svg?style=flat)](https://gemnasium.com/OpenServicesEU/waterlock-ldap-auth)
 
 waterlock-ldap-auth is a module for [waterlock](http://waterlock.ninja/)
 providing a LDAP authentication method for users based on customizeable LDAP
