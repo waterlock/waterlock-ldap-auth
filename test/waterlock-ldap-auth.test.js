@@ -13,4 +13,4 @@ describe('waterlock-ldap-auth', function(){
     wl.actions.should.be.Object;
     done();
   });
-})
+});

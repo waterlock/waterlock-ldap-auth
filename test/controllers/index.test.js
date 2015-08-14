@@ -14,4 +14,4 @@ describe('controller index', function(){
     index.logout.should.be.Function;
     done();
   });
-})
+});

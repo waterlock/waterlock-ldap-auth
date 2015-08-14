@@ -50,4 +50,4 @@ module.exports.waterlock = {
     audience: "app name",
     subject: "subject"
   }
-}
+};
