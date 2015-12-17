@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OpenServicesEU/waterlock-ldap-auth"
+    "url": "https://github.com/waterlock/waterlock-ldap-auth"
   },
   "keywords": [
     "waterlock",
@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OpenServicesEU/waterlock-ldap-auth/issues"
+    "url": "https://github.com/waterlock/waterlock-ldap-auth/issues"
   },
-  "homepage": "https://github.com/OpenServicesEU/waterlock-ldap-auth",
+  "homepage": "https://github.com/waterlock/waterlock-ldap-auth",
   "preferGlobal": false,
   "engines": {
     "node": ">=0.10"

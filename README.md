@@ -1,6 +1,6 @@
 # Waterlock LDAP Auth
 
-[![Build Status](https://travis-ci.org/OpenServicesEU/waterlock-ldap-auth.svg)](https://travis-ci.org/OpenServicesEU/waterlock-ldap-auth)
+[![Build Status](https://travis-ci.org/waterlock/waterlock-ldap-auth.svg)](https://travis-ci.org/waterlock/waterlock-ldap-auth)
 [![NPM version](http://img.shields.io/npm/v/waterlock-ldap-auth.svg?style=flat)](http://badge.fury.io/js/waterlock-ldap-auth)
 
 waterlock-ldap-auth is a module for [waterlock](http://waterlock.ninja/)
